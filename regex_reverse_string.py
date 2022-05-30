@@ -5,6 +5,7 @@ import re
 # Creating a function to do the job
 def reverse_string(string):
     splitted_string = string.split(' ')
+    print(splitted_string)
     # This assert function would ensure that the words in the string are not more than 5
     # this assert statement is to ensure consistency in capturing the groups in the string
     assert len(splitted_string) == 5, 'The words in the string should not be more than 5'
@@ -16,7 +17,7 @@ def reverse_string(string):
     # Reversing the string
     reversed_string = "{} {} {} {} {}".format(result[5], result[4], result[3], 
                                               result[2], result[1])
-    return reverse_string
+    return reversed_string
 
 reverse_string("My name is Emmanuel Ani")
     
