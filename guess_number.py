@@ -6,8 +6,7 @@ import random
 # Defining the guess function
 def guess():
     x = int(input("Choose a number greater than 100: "))
-    # assert x < 5 or x > 20, "Choose a number between 5 and 20"
-     # Raising an error when x is lower than 5 or greater than 20
+     # Raising an error when x is 100 orlower than 100
     if x <= 100:
         raise ValueError('x is lesser than 100')
     # elif x > 50:
