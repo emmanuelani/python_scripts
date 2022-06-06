@@ -1,5 +1,5 @@
-#ALGORITHMS
-#linear search
+# ALGORITHMS
+# linear search
 def linear_search(list, target):
     """
     return the linear position of the target if found, else return None

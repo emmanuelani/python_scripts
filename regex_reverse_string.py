@@ -20,5 +20,3 @@ def reverse_string(string):
     return reversed_string
 
 reverse_string("My name is Emmanuel Ani")
-    
-    

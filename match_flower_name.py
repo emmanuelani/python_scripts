@@ -15,10 +15,10 @@ def flower_dict(filename):
 
 # HINT: create a function to ask for user's first and last name
 def user_input():
-    #asks the user to input their name
+    # Asks the user to input their name
     flowers_t = flower_dict('flowers.txt')
     username = input("Enter your first and last name: ")
-    #parse the username to get the first letter of the first name
+    # parse the username to get the first letter of the first name
     first_name = username[0].lower()
     first_letter = first_name[0]
     
