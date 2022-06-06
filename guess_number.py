@@ -1,4 +1,4 @@
-# This is a simple project ia about guessing a secret number that the computer would generate
+# This is a simple game ia about guessing a secret number that the computer would generate
 # We will first have to import random module for generating the random number
 
 import random
